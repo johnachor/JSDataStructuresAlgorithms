@@ -6,13 +6,13 @@ const sum1toNwithForLoop = (n) => {
     total += i;
   }
   return total;
-}
+};
 
 // O(1)
 // Operations required to complete is constant
 const sum1toNwithFormula = (n) => {
   return n * (n + 1) / 2;
-}
+};
 
 
 // O(n)
@@ -27,7 +27,7 @@ const countUpAndDownWithForLoops = (n) => {
     total += j;
   }
   return total;
-}
+};
 
 // O(n^2)
 // Operations required grows quadratically with n
@@ -40,4 +40,30 @@ const getAllPairsFrom0toNwithNestedLoops = (n) => {
     }
   }
   return pairsArray;
-}
+};
+
+// in big O notation, arithmetic, constants and smaller terms are removed
+// e.g. O(5n) -> O(n)
+// O(3) -> O(1)
+// O(3n^2 + 7n + 10) -> O(n^2)
+
+// in a loop, the complexity is the loop length times its inner complexity
+
+
+// Despite having a lower bound, this is still just an O(n) growth pattern
+const countToAtLeast5 = (n) => {
+  let position = 0;
+  for (i = 1; i <= Math.max(5, n); i++) {
+    position = i;
+  }
+  return position;
+};
+
+// Upper bound means no growth beyond 5, so this is constant -- O(1)
+const countToAtMost5 = (n) => {
+  let position = 0;
+  for (i = 1; i <= Math.min(5, n); i++) {
+    position = i;
+  }
+  return position;
+};
