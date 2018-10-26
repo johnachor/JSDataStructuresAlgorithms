@@ -1,1 +1,9 @@
 # JSDataStructuresAlgorithms
+
+A personal project full of code snippets that I'll write while I work on learning the ins and outs of the concepts of data structuring, algorithms, and time/space complexity.
+
+## Changelog
+
+- 10/26/2018 
+  - Created.
+  - Added `Snippets\BigO\bigO.js` for illustrations of big O notation.
