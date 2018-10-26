@@ -31,7 +31,7 @@ const countUpAndDownWithForLoops = (n) => {
 
 // O(n^2)
 // Operations required grows quadratically with n
-// Inner loop runs n times inside n iterations of outer loop (n*n)
+// Inner loop runs n times for each of n iterations of outer loop (n*n)
 const getAllPairsFrom0toNwithNestedLoops = (n) => {
   const pairsArray = [];
   for (i = 0; i < n; i++) {
