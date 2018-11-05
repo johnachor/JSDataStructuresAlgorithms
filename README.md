@@ -10,3 +10,4 @@ A personal project full of code snippets that I'll write while I work on learnin
 
 -  11/5/2018
   - Added `Snippets\BigO\space-complexity.js`, renamed `bigO.js` to `time-complexity.js`
+  - Added `Snippets\Built-ins\arrays.js` and `objects.js` for notes on time complexity of basic interactions
